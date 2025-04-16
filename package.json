@@ -1,0 +1,43 @@
+{
+  "name": "automated-testing",
+  "version": "1.0.0",
+  "description": "Practice task for automated testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --reporter mochawesome",
+    "coverage": "c8 npm run test && c8 report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dziyanabortnik/automated-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "practice"
+  ],
+  "author": "Диана Бортник",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dziyanabortnik/automated-testing/issues"
+  },
+  "homepage": "https://github.com/dziyanabortnik/automated-testing#readme",
+  "devDependencies": {
+    "c8": "^10.1.3",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3"
+  },
+  "c8": {
+    "check-coverage": true,
+    "branches": 80,
+    "functions": 80,
+    "lines": 80,
+    "statements": 80,
+    "exclude": [
+      "test/**/*",
+      "node_modules/**/*"
+    ]
+  }
+}
