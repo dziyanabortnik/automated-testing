@@ -7,7 +7,8 @@
   "scripts": {
     "test": "mocha --reporter mochawesome",
     "coverage": "c8 npm run test && c8 report --reporter=html",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,7 @@
     "chai": "^5.2.0",
     "eslint": "^9.25.1",
     "globals": "^16.0.0",
-    "husky": "^9.1.7",
+    "husky": "^8.0.0",
     "lint-staged": "^15.5.1",
     "mocha": "^11.1.0",
     "mochawesome": "^7.1.3"
