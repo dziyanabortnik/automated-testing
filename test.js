@@ -1,1 +1,1 @@
-console.lfog('test');
+console.lвog('test');
