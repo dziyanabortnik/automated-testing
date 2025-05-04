@@ -14,4 +14,4 @@ To set up the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dziyanabortnik/automated-testing-js.git
+   git clone https://github.com/dziyanabortnik/automated-testing.git
